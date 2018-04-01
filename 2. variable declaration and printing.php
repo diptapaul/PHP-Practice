@@ -1,8 +1,7 @@
-<!doctype html>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PHP Syntax</title>
+	<title>Learning PHP</title>
 	<style type="text/css">
 		.phpcoding{
 			width: 900px;
@@ -29,15 +28,21 @@
 <body>
 <div class = "phpcoding">
 	<section class = "headeroption">
-		<h2>PHP Fundamentals Training</h2>
+		<h2>PHP Variable Declaration and Printing</h2>
 	</section>
 	<section class = "maincontent">
 	<?php
-		echo "Hello World";
+		$a = 10;
+		$b = 20;
+		$c = $a + $b;
+		echo "The additioin of $a + $b = $c";
+		echo "<br>";
+		$string = "I love my Bangladesh";
+		echo $string;
 	?>
 	</section>
 	<section class = "footeroption">
-		<h2>www.trainingwithliveproject.com</h2>
+		<h2>Practice Hard. Thank you :)</h2>
 	</section>
 </div>
 </body>
