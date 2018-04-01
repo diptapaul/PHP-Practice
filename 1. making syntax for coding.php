@@ -3,6 +3,9 @@
 <head>
 	<title>PHP Syntax</title>
 	<style type="text/css">
+		body{
+			font-family: verdana;
+		}
 		.phpcoding{
 			width: 900px;
 			margin: 0 auto;

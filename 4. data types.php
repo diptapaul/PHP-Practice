@@ -31,17 +31,41 @@
 <body>
 <div class = "phpcoding">
 	<section class = "headeroption">
-		<h2>PHP Variable Declaration and Printing</h2>
+		<h2>Data Types</h2>
 	</section>
 	<section class = "maincontent">
 	<?php
-		$a = 10;
-		$b = 20;
-		$c = $a + $b;
-		echo "The additioin of $a + $b = $c";
+		echo "The data types are given below - "."<br>"."String, Integer, Float, Boolean, Array, Object, Null, Resource";
+		echo "<br><br>";
+		$string = "I am Dipta Paul";
+		$integer = 22;
+		$float = 3.76;
+		$boolean = true;
+		$array = array("Dipta", "Pias", "Mamun");
+
+		Class Student{
+	
+		}
+
+		$object = new Student();
+
+		$null = null;
+
+		var_dump($string);
 		echo "<br>";
-		$string = "I love my Bangladesh";
-		echo $string;
+		var_dump($integer);
+		echo "<br>";
+		var_dump($float);
+		echo "<br>";
+		var_dump($boolean);
+		echo "<br>";
+		var_dump($array);
+		echo "<br>";
+		var_dump($object);
+		echo "<br>";
+		var_dump($null);
+		echo "<br>";
+
 	?>
 	</section>
 	<section class = "footeroption">

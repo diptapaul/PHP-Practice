@@ -31,17 +31,23 @@
 <body>
 <div class = "phpcoding">
 	<section class = "headeroption">
-		<h2>PHP Variable Declaration and Printing</h2>
+		<h2>Strings</h2>
 	</section>
 	<section class = "maincontent">
 	<?php
-		$a = 10;
-		$b = 20;
-		$c = $a + $b;
-		echo "The additioin of $a + $b = $c";
+		$st = "I love my parents";
+		echo "String = ".$st;
+		echo "<br/>";
+		echo "The length of the String is ".strlen($st);
 		echo "<br>";
-		$string = "I love my Bangladesh";
-		echo $string;
+		echo "The number of words in String is ".str_word_count($st);
+		echo "<br>";
+		echo "The reverse of String is = ".strrev($st);
+		echo "<br>";
+		echo "The position of love in String is ".strpos($st, "love");
+		echo "<br>";
+		echo "After replacing love to like the String is = ".str_replace("love", "like", $st);
+		echo "<br>";
 	?>
 	</section>
 	<section class = "footeroption">

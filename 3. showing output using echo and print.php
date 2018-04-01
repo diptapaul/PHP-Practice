@@ -31,17 +31,13 @@
 <body>
 <div class = "phpcoding">
 	<section class = "headeroption">
-		<h2>PHP Variable Declaration and Printing</h2>
+		<h2>Show output using Echo and Print</h2>
 	</section>
 	<section class = "maincontent">
 	<?php
-		$a = 10;
-		$b = 20;
-		$c = $a + $b;
-		echo "The additioin of $a + $b = $c";
-		echo "<br>";
-		$string = "I love my Bangladesh";
-		echo $string;
+		echo "I love Bangladesh."." I love my country very much";
+		echo "<br/>";
+		print("I born in Bangladesh")
 	?>
 	</section>
 	<section class = "footeroption">
